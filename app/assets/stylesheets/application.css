@@ -11,3 +11,23 @@
  *= require_self
  *= require_tree .
  */
+
+
+.session-controls {
+  margin-top: 5px;
+  float:right;
+}
+
+.article {
+  margin-bottom: 30px;
+}
+
+.articles {
+  margin-bottom: 40px;
+}
+
+.article-info {
+  margin-bottom: 15px;
+  margin-left: 3px;
+
+}
