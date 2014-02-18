@@ -39,13 +39,12 @@
       <%= content_tag :div, msg, id: "flash_#{name}" %>
     <% end %>
   </div>
-</div>
+
 
   <div class="row">
     <div class="span9"><%= yield %></div>
-  
-  <div class="span3 sidebar">
-  <div class="my-wiki-site">
+    <div class="span3 sidebar">
+        <div class="my-wiki-site">
     <h4>My Wikiful</h4>
     <ul>
       <li><%= link_to "Write a Wiki", new_article_path %></li>
@@ -65,6 +64,8 @@
   </div>
 </div>
 
+      </div>
+      </div>
 
 </body>
 </html>
