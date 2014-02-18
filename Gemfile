@@ -51,3 +51,7 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
 
+group :production do
+  gem 'rails_12factor'
+end
+
